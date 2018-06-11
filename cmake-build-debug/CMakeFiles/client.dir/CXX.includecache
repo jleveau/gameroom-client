@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jleveau/CLionProjects/client/client.cpp
+string
+-
+iostream
+-
+netinet/in.h
+-
+netdb.h
+-
+zconf.h
+-
+client.h
+/home/jleveau/CLionProjects/client/client.h
+
+/home/jleveau/CLionProjects/client/client.h
+string.h
+/home/jleveau/CLionProjects/client/string.h
+
+/home/jleveau/CLionProjects/client/main.cpp
+iostream
+-
+client.h
+/home/jleveau/CLionProjects/client/client.h
+
